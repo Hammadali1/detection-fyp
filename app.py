@@ -227,11 +227,3 @@ def DeleteUser(param):
         mongo.db.user.delete_one({'_id': param})
         return "deleted"
 
-
-
-
-
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
