@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def retrieve():
-        return ("yahoo")
+        return "yahoo"
          
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
